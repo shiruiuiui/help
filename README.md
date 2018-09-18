@@ -46,7 +46,7 @@ public class BodyMassIndex
 		double x = getBMI(weightKilo, heightCm);
 		
 	/*	System.out.println("A body mass index of 20 - 25 is considered normal");
-		System.out.printf("Your BMI is: %.2d", bmi);
+		System.out.printf("Your BMI is: %.2f", bmi);
 		System.out.println();
 	*/
 		
