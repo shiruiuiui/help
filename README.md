@@ -58,14 +58,12 @@ public class BodyMassIndex
 	public static double getBMI(int weightKG, int heightCM)
 	{
 		// complete for 80 pt version
-		(weightKG/Math.pow((heightCM/100.0), 2))
-		float bmi = System.out.println);
-		return bmi;
+		double bmi = (double)((double)weightKG / Math.pow((double)heightCM / 100, 2));
 		
 		System.out.println("A body mass index of 20 - 25 is considered normal");
 		System.out.printf("Your BMI is: %.2d", bmi);
 		System.out.println();
-		
+		return bmi;
 	
 	}
 	
